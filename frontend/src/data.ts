@@ -1,0 +1,17 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { StudentRecord, NotificationLog } from './types';
+
+export const INITIAL_STUDENTS: StudentRecord[] = [];
+
+export const INITIAL_WHATSAPP_LOGS: NotificationLog[] = [];
+
+export const ASSET_URLS = {
+  adminAvatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCEIjeRgKzr_oV6AyNHSULkmpKCw_Euyhoyl1O6IqCU7xGQNWUiqdn2P_nTpVQ04L3EWJuwnXSRGPZpG6QrdHj3F_0q_XAk1Gp4iLvWz7tLDfLujYca9o7NP9Azur5Ubv5WttYEVEfMJewfmQonAsL5vcugOlYZfVRJ4FdV_icwvR1qEt35XWH-EX5vwy7ipXnp0QPP0dTpzSC8xx7aYJgZkHVnRjRAfFYEkcaL5CHMostzPZYxkBRVhgVMOt7e5xlCBX7WagiPOpk',
+  dashboardVector: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDB-Az9z6_AdOD9s8o3VXp5hvIPTKAWG1M9HeHCGA9xHa8Fc__sEwtZQjKUxvj1q89CCNI2SxOWBH_Q6J1lb4_hqrypJhmfc-YFKHkqZp44ExfMIdn6xR4rEroGjRvxacNtMr5iX4nGaV6D5_CGoEc-IjM1JzzdwXRo6ss5Axg3ep4zjaHqeiZM0wa6Wjb6L2EGXZVQrQ82rwyT0TH8EJi_ht-sNn6m1YlwZShPZG9rxATDKoZEp7wnjD41V3WEyO-qCbtr1R5Uwvc',
+  workstationVector: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA8bnFrTbOetyVXd1x308dgCxvTYUCu5e05Qru8OaWyci0kh8ElZMIv1CmSB2Zf2JN1HkFJGXwMCb5MzamBa9IaQcrsLBTZ75o012rrZfvoIMlo89zR0iu_7poKBoS7jP6aBYLUDgRmum08gWFJWOpjg9e4OvMLex5QcASY4jI9ykNiTFUZP81A2lwMOlo8xkZ7erTx1yqajvnJSLOiUD3u55l_HAcHX4IeYV_jxEqavbyNssfR3uXoY39vU5XVnUgIxcHyCTo3n68',
+  detectorScannerImage: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBCZkv3pCl4rHddJEIQKrxaD8t6rOtBEt68j_lB58Y7rtWzSOXtsVExwCpfd9u2AswSPxARhHY4Y2dfY-6GhhH8ag93yaApaKu07DB2h7QGoBzgJ1xfrRjk3ecBZKu-0GqsBfgNZzuCQ6NLXlu-RWu8eE_QcvjkesWQpLNi3wIC7HCG0NfCaO5RzwwbJwGThj6JwgipGGWGwCAcX7rUUvpbZE8WAKLx9b7LJDTIVN8ZEFnvcplASJiwPUPqV7U-0_upOopvG2iglJM'
+};

@@ -1,0 +1,20 @@
+names:
+- celana_benar
+- kemeja_benar
+- kemeja_salah
+- kerudung_benar
+- kerudung_salah
+- nametag_ada
+- rok_benar
+- rok_salah
+- sabuk_ada
+nc: 9
+roboflow:
+  license: CC BY 4.0
+  project: sipma-cpklm
+  url: https://universe.roboflow.com/sausans-workspace/sipma-cpklm/dataset/2
+  version: 2
+  workspace: sausans-workspace
+test: ../test/images
+train: ../train/images
+val: ../valid/images

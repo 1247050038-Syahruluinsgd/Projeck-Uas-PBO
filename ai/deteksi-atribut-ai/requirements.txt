@@ -1,0 +1,19 @@
+# =============================================================
+# requirements.txt — Deteksi Atribut AI
+# =============================================================
+# Instal semua dependensi:
+#   pip install -r requirements.txt
+# =============================================================
+
+# ---------- Computer Vision & Deep Learning ----------
+ultralytics>=8.2.0          # Framework YOLO (YOLOv8/v11) dari Ultralytics
+opencv-python>=4.9.0        # Pengolahan citra & akses kamera
+numpy>=1.26.0               # Operasi array dan matriks
+
+# ---------- Web API ----------
+fastapi>=0.111.0            # Framework API modern & cepat
+uvicorn[standard]>=0.30.0   # ASGI server untuk menjalankan FastAPI
+python-multipart>=0.0.9     # Parsing multipart/form-data (upload file)
+
+# ---------- Utilitas ----------
+Pillow>=10.3.0              # Konversi & manipulasi gambar (PIL)
